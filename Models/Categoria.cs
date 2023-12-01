@@ -1,3 +1,5 @@
+#nullable disable
+
 namespace LuisFPatrocinio.Models;
 
 public class Categoria {

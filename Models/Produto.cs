@@ -10,7 +10,6 @@ public class Produto{
     public string PathImagem {get; set;}
     public decimal Preco {get; set;}
     public int Quantidade {get; set;}
-    public virtual ICollection<Carrinho> CarrinhoProduto {get;set;}
     [ForeignKey("Categoria")]
     public int CategoriaId {get;set;}
     public virtual Categoria Categoria {get;set;}
